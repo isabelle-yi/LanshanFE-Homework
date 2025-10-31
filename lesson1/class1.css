@@ -1,0 +1,230 @@
+        *{
+                margin: 0;
+                padding:0;
+                box-sizing:border-box;
+        }
+        body
+        {
+                margin:0;
+                padding:50px;
+                background-color:#fffdf7;
+                background-image:
+                   linear-gradient(rgba(240, 236, 222, 0.8) 1px, transparent 1px),
+                   linear-gradient(90deg, rgba(240, 236, 222, 0.8) 1px, transparent 1px);
+                  background-size:15px 15px; 
+        }
+        .menu-whole
+        {
+                list-style:none;
+                padding-left:0;
+        }
+        .dish-card1
+        {
+                display:flex;
+                align-items:flex-start;
+                gap:30px;
+                width:100%;
+                max-width:1500px;
+                margin-bottom: 20px;
+        }
+        
+        .dish-content
+        {
+                flex:1;
+                min-width:0;
+                max-width:700px;
+                margin-left:150px;
+        }
+        .price-section
+        {
+                width:40px;
+                text-align:right;
+                margin-right:10px;
+        }
+        
+        .head-1
+        {
+                text-align:center;
+                margin-top:40px;
+                margin-bottom:0px;
+                color:rgb(53, 51, 51);
+                font-family:'Times New Roman', Times, serif;
+                font-size: 100px;
+                
+                
+        }
+        .head-1:hover
+        {
+                color:rgb(204, 213, 163);
+        }
+        .line
+        {     
+                text-align:center;
+        }
+        .title-line
+        {
+                width:800px;
+                height:2px;
+                background-color:#565151;
+                margin-top:1px;
+                display:inline-block;
+                margin-bottom:60px;
+        }
+        .title-line:hover
+        {
+                background-color:rgb(204, 213, 163);
+        }
+        .head-2
+        {
+                margin-left:150px;
+                margin-bottom:50px;
+                color:rgb(53, 51, 51);
+                font-family:'Times New Roman', Times, serif;
+                font-size: 40px;
+        }
+        .head-2:hover
+        {
+                color:rgb(220, 227, 190);
+        }
+        .head-3
+        {
+                color:rgb(54, 52, 52);
+                font-family:'Times New Roman', Times, serif;
+                font-size: 25px;
+        }
+        .head-3:hover
+        {
+                color:rgb(220, 227, 190);
+        }
+        .head-ch 
+        {
+                font-family: 'Times New Roman', Times, serif;
+                font-weight:700;
+                font-size:25px;
+        }
+        .head-ch:hover
+        {
+                color:rgb(220, 227, 190);
+        }
+        .head-en
+        {
+                margin-bottom:20px;
+        }
+        .head-en:hover
+        {
+                color:rgb(220, 227, 190);
+        }
+        .number
+        {
+                color:#413737;
+                font-size: 22px;
+                font-weight:500;
+                font-family: 'Times New Roman', Times, serif;
+        }
+        .number:hover
+        {
+                color:rgb(220, 227, 190);
+        }
+        .describe
+        {
+                word-wrap:break-word;
+                word-break:break-all;
+                white-space:normal;
+                line-height:1.6;
+                margin-bottom:100px;
+                margin-top:30px;
+                font-family:'Times New Roman', Times, serif
+        }
+        .describe:hover
+        {
+                color:rgb(220, 227, 190);
+        }
+        .menu-image
+        {
+                flex:0 0 200px;
+                width:200px;
+                height:150px;
+                overflow:hidden;
+                margin-left:20px;
+        }
+        .menu-image img
+        {
+                width:100%;
+                height:100%;
+                object-fit: cover;
+        }
+
+
+
+
+        .head-drink
+        {
+                margin-left:250px;
+                margin-bottom:30px;
+                color:rgb(53, 51, 51);
+                font-family:'Times New Roman', Times, serif;
+                font-size: 40px;
+        }
+        .head-drink:hover
+        {
+                color:rgb(220, 227, 190);
+        }
+        .dish-card2
+        { 
+                margin-top:10px;
+                display:flex;
+                flex-direction:column;
+                gap:10px;
+                width:100%;
+        }
+        .drink-title
+        {       
+                margin-left:250px;
+                margin-bottom:60px;
+        }
+        .drink-title:hover
+        {
+                color:rgb(220, 227, 190);
+        }
+        .drink
+        {
+                
+                display:flex;
+                flex-direction:column;
+                margin-bottom:40px;
+        }
+        .drink-item
+        {
+                display:flex;
+                align-items:flex-start;
+                gap:30px;
+                width:100%;
+                max-width:1500px;
+                margin-bottom:20px;
+                margin-left: 75px;
+        }
+        .drink-price
+        {
+                width:40px;
+                text-align:right;
+                margin-right:10px;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 22px;
+        }
+        .drink-price:hover
+        {
+                color:rgb(220, 227, 190);
+        }
+        .drink-name
+        {
+                flex:1;
+                min-width:0;
+                max-width:700px;
+                margin-left:205px;
+                font-size:20px;
+                font-family: 'Times New Roman', Times, serif;
+        }
+        .drink-name:hover
+        {
+                color:rgb(220, 227, 190);
+        }
